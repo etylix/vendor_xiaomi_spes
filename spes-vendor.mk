@@ -625,175 +625,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/xiaomi/spes/proprietary/vendor/lib/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.irs2381c_polar.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.flash.lm3644.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.flash.lm3644.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.hi556.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.hi556.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx318.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx334.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx362.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx376.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx376.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx386.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx386.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx476.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx476.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx481.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx519.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx519.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx576.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx576.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx577.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx577.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx586.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.k7t_gc02m1_macro.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.k7t_gc02m1_macro.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.k7t_gc08a3_ultra.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.k7t_gc08a3_ultra.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.k7t_ov02b1b_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.k7t_ov02b1b_depth.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.k7t_s5k3l6_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.k7t_s5k3l6_front.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.k7t_s5kjn1_wide.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.k7t_s5kjn1_wide.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.max7366_6dof.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_6dof.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.max7366_eyetrack.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_eyetrack.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.max7366_ov6211.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_ov6211.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.max7366_ov9282.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_ov9282.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov12a10.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov12a10_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov12a10_front.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov13855.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov13880.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov13880.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov6211_master.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov6211_master.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov6211_slave.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov6211_slave.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov7251.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov7251.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov8856.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov8856_master.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov8856_master.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov8856_slave.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov8856_slave.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov9282_master.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov9282_master.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.ov9282_slave.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov9282_slave.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k2l7.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.s5k2x5sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k2x5sp.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k3m5.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.s5k3p9.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k3p9.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k4h7.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.s5k5e9yu05.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k5e9yu05.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensor.s5k5e9yx04.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k5e9yx04.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_aac_gc02m1_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_aac_gc02m1_macro_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_aac_gc08a3_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_aac_gc08a3_ultra_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_aac_s5k3l6_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_aac_s5k3l6_front_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_aac_s5kjn1_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_aac_s5kjn1_wide_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_ofilm_gc02m1_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_ofilm_gc02m1_macro_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_ofilm_s5kjn1_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_ofilm_s5kjn1_wide_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_qtech_gc08a3_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_qtech_gc08a3_ultra_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_qtech_s5k3l6_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_qtech_s5k3l6_front_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_sunny_ov02b1b_depth_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_sunny_ov02b1b_depth_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.sensormodule.k7t_truly_ov02b1b_depth_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.k7t_truly_ov02b1b_depth_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.agatti_lce_s5k3p9.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.agatti_lce_s5k3p9.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.agatti_lce_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.agatti_lce_s5k4h7.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.agatti_lce_s5k5e9yx04.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.agatti_lce_s5k5e9yx04.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.agatti_no_mfnr_lce_s5k3p9.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.agatti_no_mfnr_lce_s5k3p9.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.agatti_truly_imx476.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.agatti_truly_imx476.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.c3q_hi556.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.c3q_hi556.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.divar_lce_s5k3p9.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.divar_lce_s5k3p9.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.divar_lce_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.divar_lce_s5k4h7.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.divar_lce_s5k5e9yx04.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.divar_lce_s5k5e9yx04.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.divar_truly_imx476.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.divar_truly_imx476.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_gc02m1_macro_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_gc08a3_ultra_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_s5k3l6_front_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_aac_s5kjn1_wide_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_ofilm_gc02m1_macro_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_ofilm_s5kjn1_wide_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_qtech_gc08a3_ultra_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_qtech_s5k3l6_front_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_factory.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_factory.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_global.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_india.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.lce_s5k3p9.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.lce_s5k3p9.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.lce_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.lce_s5k4h7.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.lce_s5k5e9yx04.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.lce_s5k5e9yx04.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/com.qti.tuned.truly_imx476.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.truly_imx476.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.addconstant.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.binning.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.customhwnode.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.depth.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.dewarp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dewarp.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummyrtb.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv2.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv3.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.fcv.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.gpu.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.memcpy.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.mimovie.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.mimovie.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.stich.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.swaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swaidenoiser.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.swcac.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swcac.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.swlsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swlsc.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.swmctf.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swmctf.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.swmfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swmfnr.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swregistration.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aec.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aecwrapper.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.af.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afd.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afwrapper.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.asd.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awb.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awbwrapper.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.haf.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.hafoverride.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlib.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibsony.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibwrapper.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.tracker.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.aec.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.af.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.awb.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.pdlib.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/components/com.vidhance.node.processing.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.vidhance.node.processing.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.chiusecaseselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.chiusecaseselector.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.anchorsync.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.demux.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.frameselect.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.fusion.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.generic.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.gs.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.gs.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.hdr.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.memcpy.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.mfsr.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.qcfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.qcfa.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.rawhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.rawhdr.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.rt.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.rt.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.serializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.serializer.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.stub.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.swmf.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -802,8 +633,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/hw/audio.primary.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.bengal.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/hw/sound_trigger.primary.bengal.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.bengal.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
@@ -816,7 +645,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libFileMux_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFileMux_proprietary.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libI420colorconvert.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libMpeg4SwEncoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMpeg4SwEncoder.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
@@ -847,43 +675,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalCFR.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_hdr_detection.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlengine.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libc++_shared_vf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared_vf.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_scene.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerapostproc.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfacialfeatures.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxifestriping.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamximageformatutils.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxncs.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxswispiqmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswispiqmodule.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchilog.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libcirrusspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcirrusspkrprot.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcomprcapture.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
@@ -903,12 +707,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libhfp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhfp.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipebpsstriping.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libjpege.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpege.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libmctfengine_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmctfengine_stub.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libmmcamera_cac3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3.so \
@@ -920,11 +721,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinelog.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopencv.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libopestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopestriping.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfioctl.so \
@@ -954,21 +751,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndmonitor.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_fastRPC_util.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_registry_skel.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspkrprot.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfestriping.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideofilter_only.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libwfdcodecv4l2_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcodecv4l2_proprietary.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/libwfdconfigutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdconfigutils_proprietary.so \
@@ -1056,8 +843,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/vendor.qti.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@3.5.so \
-    vendor/xiaomi/spes/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/xiaomi/spes/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.2.so \
